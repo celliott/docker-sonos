@@ -10,7 +10,4 @@ RUN cd sonos_api && npm install
 
 ADD start.sh /start.sh
 
-#WORKDIR /sonos_api
-
 CMD /usr/local/bin/node /sonos_api/server.js
-#CMD /bin/bash
