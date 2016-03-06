@@ -24,8 +24,8 @@ Now you can control your system by invoking the following commands:
 
 examples
 
-`http://<sonos_api_host>:5005/Living%20Room/volume/15`
+`http://<sonos_api_host>:5005/<device_name>/volume/15`
 (will set volume for room Living Room to 15%)
 
-`http://<sonos_api_host>:5005/Living%20Room/volume/+1`
+`http://<sonos_api_host>:5005/<device_name>/volume/+1`
 (will increase volume by 1%)
