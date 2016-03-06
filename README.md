@@ -1,7 +1,7 @@
 docker sonos
 ========
 
-A docker container to run (node-sonos-http-api)[https://github.com/jishi/node-sonos-http-api] server.
+A docker container to run [node-sonos-http-api](https://github.com/jishi/node-sonos-http-api) server.
 
 Run it with
 
