@@ -27,7 +27,7 @@ examples
 ---
 
 `http://<sonos_api_host>:5005/<room>/volume/15`
-(will set volume for room to 15%)
+(will set volume for <room> to 15%)
 
 `http://<sonos_api_host>:5005/<room>/volume/+1`
-(will increase volume by 1%)
+(will increase volume for <room> by 1%)
