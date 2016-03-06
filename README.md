@@ -1,14 +1,13 @@
 docker sonos
-========
+===
 
 A docker container to run [node-sonos-http-api](https://github.com/jishi/node-sonos-http-api) server.
 
-Run it with
+usage
 
-```
-make container
-make run
-```
+	$ make container
+	$ make run
+
 
 Now you can control your system by invoking the following commands:
 
@@ -23,7 +22,7 @@ Now you can control your system by invoking the following commands:
 	http://<sonos_api_host>:5005/reindex
 	http://<sonos_api_host>:5005/sleep/{timeout in seconds or timestamp HH:MM:SS or off}
 
-Example:
+examples
 
 `http://<sonos_api_host>:5005/Living%20Room/volume/15`
 (will set volume for room Living Room to 15%)
